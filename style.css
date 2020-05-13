@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    font-family: 'Comfortaa', cursive;
+    color: #0b0824;
+}
+
+body section {
+    width: 700px;
+    height: 500px;
+    background: linear-gradient(35deg, #cff, #fcc);
+    border-color: transparent;
+    border-radius: 6px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.location, .temp {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temp {
+    flex-direction: column;
+}
+
+.location img {
+    height: 80px;
+    width: 80px;
+}
+
+.degree-section, .humidity-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section img {
+    height: 70px;
+}
+
+.humidity-section img {
+    height: 40px;
+}
+
+.degree-section h2 {
+    padding-left: 1%;
+    font-size: 50px;
+}
+
+.degree-section, .humidity-section span {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.cloudiness, .windiness {
+    margin-left: 20px;
+}
+
+.temp-description {
+    margin-top: 5%;
+    font-size: 30px;
+}
